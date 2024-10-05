@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Successful"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/grey"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1"
+        android:padding="4dp"> <!-- Optional padding around the entire table -->
+
+        <TableRow
+            android:background="@drawable/table_cell_border"> <!-- Apply border to the row -->
+
+            <!-- Column 1: Centered Labels with border -->
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                /> <!-- Border around each cell -->
+
+            <TextView
+                android:text="Birthday"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/table_cell_border" /> <!-- Border around each cell -->
+
+            <TextView
+                android:text="Email Id"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                /> <!-- Border around each cell -->
+        </TableRow>
+
+        <TableRow
+            android:background="@drawable/table_cell_border"> <!-- Apply border to the row -->
+
+            <!-- Column 2: Centered Data with border -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/table_cell_border" /> <!-- Border around each cell -->
+
+            <TextView
+                android:id="@+id/tvBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                 /> <!-- Border around each cell -->
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/table_cell_border" /> <!-- Border around each cell -->
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

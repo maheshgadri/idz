@@ -1,0 +1,25 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.Idz_task" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Idz_task" parent="Base.Theme.Idz_task" />-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- Base application theme with orange primary color. -->
+<style name="Base.Theme.Idz_task" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <item name="colorPrimary">@color/orange</item> <!-- Primary color (orange) -->
+    <item name="colorPrimaryVariant">@color/orange_dark</item> <!-- Darker variant of orange -->
+    <item name="colorOnPrimary">@android:color/white</item> <!-- Text color on top of orange -->
+    <item name="colorSecondary">@color/orange</item> <!-- Secondary color (orange) -->
+</style>
+
+<!-- Main theme inheriting from the base theme -->
+<style name="Theme.Idz_task" parent="Base.Theme.Idz_task" />
+
+</resources>
